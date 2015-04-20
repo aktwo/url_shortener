@@ -1,5 +1,3 @@
-require "URI"
-
 class Url < ActiveRecord::Base
 
   REDIRECTABLE = /\A(http|https):\/\/(www.)?(.*)\z/
