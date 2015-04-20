@@ -1,6 +1,6 @@
-<h1>Create a new link here</h1>
+<h1>Akshay's URL Shortener</h1>
 
 <%= bootstrap_form_for @url, url: {action: "create"} do |f| %>
-  <%= f.text_field :url %>
-  <%= f.submit "Create" %>
+  <%= f.text_field :url, hide_label: true, placeholder: "http://www.example.com" %>
+  <%= f.submit "Create", class: "btn btn-success" %>
 <% end %>

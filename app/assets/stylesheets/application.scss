@@ -1,3 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "rails_bootstrap_forms";
+
+html {
+  background: url(asset-path('puppy.jpg')) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+}
